@@ -5,7 +5,7 @@ import java.time.*;
 public class TripStop {
 
 	private String locationCity;
-	private String loctionCountry;
+	private String locationCountry;
 	
 	private LocalDate dateFrom;
 	private LocalDate dateTo;
@@ -16,11 +16,11 @@ public class TripStop {
 	public void setLocationCity(String locationCity) {
 		this.locationCity = locationCity;
 	}
-	public String getLoctionCountry() {
-		return loctionCountry;
+	public String getlocationCountry() {
+		return locationCountry;
 	}
-	public void setLoctionCountry(String loctionCountry) {
-		this.loctionCountry = loctionCountry;
+	public void setlocationCountry(String locationCountry) {
+		this.locationCountry = locationCountry;
 	}
 	public LocalDate getDateFrom() {
 		return dateFrom;

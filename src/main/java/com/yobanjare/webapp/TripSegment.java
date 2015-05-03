@@ -1,4 +1,5 @@
 package com.yobanjare.webapp;
+
 import java.time.*;
 
 public class TripSegment {
@@ -39,9 +40,9 @@ public class TripSegment {
 		this.stopDestination = stopDestination;
 		
 		this.originCity = stopOrigin.getLocationCity();
-		this.originCountry=stopOrigin.getLoctionCountry();
+		this.originCountry=stopOrigin.getlocationCountry();
 		this.destinationCity=stopDestination.getLocationCity();
-		this.destinationCountry=stopDestination.getLoctionCountry();
+		this.destinationCountry=stopDestination.getlocationCountry();
 		this.dateStart=stopOrigin.getDateTo();
 		this.dateEnd=stopDestination.getDateFrom();		
 		
