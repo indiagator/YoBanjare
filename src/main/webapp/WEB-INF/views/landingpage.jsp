@@ -7,5 +7,8 @@
 </head>
 <body>
 	<%= "Welcome YoBanjare" %>
+	</br>
+	
+	<a href="/webapp/dashboard">DashBoard</a>
 </body>
 </html>

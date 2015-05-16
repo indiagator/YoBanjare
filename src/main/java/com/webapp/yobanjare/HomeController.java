@@ -37,4 +37,27 @@ public class HomeController {
 		return "landingpage";
 	}
 	
+	@RequestMapping(value = "/dashboard", method = RequestMethod.GET)
+	
+		public String dashboard(Model model) {
+		
+		return "dashboard";
+	}
+	
+	
+	@RequestMapping(value = "/traveller", method = RequestMethod.GET)
+	
+	public String traveller(Model model) {
+	
+	return "traveller";
+	
+	}
+	
+@RequestMapping(value = "/trip", method = RequestMethod.GET)
+	
+	public String trip(Model model) {
+	
+	return "trip";
+}
+
 }
