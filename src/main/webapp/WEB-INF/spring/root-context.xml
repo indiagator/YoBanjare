@@ -5,4 +5,27 @@
 	
 	<!-- Root Context: defines shared resources visible to all other web components -->
 		
+		
+		<bean id="dbDataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+        <property name="url" value="jdbc:mysql://localhost:3306/javatest" />
+        <property name="username" value="javauser" />
+        <property name="password" value="javadude" />
+        <property name="initialSize" value="5" />
+        <property name="maxActive" value="40" />
+        <property name="maxIdle" value="10" />
+        <property name="minIdle" value="10" />
+        <property name="maxWait" value="-1" />
+    	</bean>
+    
+     
+    
+     	<bean id="serviceDAO" class="com.yobanjare.model.db.JdbcDao">
+      	<property name="dataSource" ref="dbDataSource" /> 
+      	</bean> 
+      	
+      	<bean id="homeController" class="com.yobanjare.model.HomeController">
+      	<property name="myDao" ref="serviceDAO" /> 
+      	</bean> 
+      
 </beans>
