@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>YoBanjare</name>
+	<name>YoBanjare0.1</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -46,9 +46,29 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>YoBLogoGreenResized.png</name>
+			<name>src/main/webapp/resources/BlazeNonCahalnt.jpg</name>
 			<type>1</type>
-			<location>C:/Users/DEV/Documents/workspace-sts-3.6.4.RELEASE/YoBanjare0.1/src/main/webapp/resources/YoBLogoGreenResized.png</location>
+			<location>C:/Users/DEV/Documents/workspace-sts-3.6.4.RELEASE/YoBanjare0.1/src/main/webapp/resources/BlazeNonCahalnt.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/resources/trip1.jpg</name>
+			<type>1</type>
+			<location>C:/Users/DEV/Documents/workspace-sts-3.6.4.RELEASE/YoBanjare0.1/src/main/webapp/resources/trip1.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/resources/trip2.jpg</name>
+			<type>1</type>
+			<location>C:/Users/DEV/Documents/workspace-sts-3.6.4.RELEASE/YoBanjare0.1/src/main/webapp/resources/trip2.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/resources/trip3.jpg</name>
+			<type>1</type>
+			<location>C:/Users/DEV/Documents/workspace-sts-3.6.4.RELEASE/YoBanjare0.1/src/main/webapp/resources/trip3.jpg</location>
+		</link>
+		<link>
+			<name>src/main/webapp/resources/trip4.jpg</name>
+			<type>1</type>
+			<location>C:/Users/DEV/Documents/workspace-sts-3.6.4.RELEASE/YoBanjare0.1/src/main/webapp/resources/trip4.jpg</location>
 		</link>
 	</linkedResources>
 </projectDescription>

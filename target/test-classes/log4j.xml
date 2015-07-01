@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="com.yobanjare.model">
+	<logger name="com.yobanjare.webapp">
 		<level value="info" />
 	</logger>
 	
